@@ -63,9 +63,8 @@
       }) + '\n');
   })
 ```
-  ###先npm下载依赖
+  >先npm下载依赖
     `npm install`
-  ###启动开发环境
+  >启动开发环境
     `npm run dev`
-  ###运行localhost:1983
-    
+  >运行localhost:1983
