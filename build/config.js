@@ -17,7 +17,7 @@ var config = {
         // 接口代理
         proxyTable: {
             '/pyxis': {
-                target: 'http://pyxis.orion.meizu.com:8090',
+                target: 'http://www.qqq.com',
                 changeOrigin: false
             },
             '/views,/vizql,/trusted': {
@@ -25,7 +25,7 @@ var config = {
                 changeOrigin: true
             },
             '/ori': {
-                target: 'http://ori.meizu.com',
+                target: 'http://ori.test.com',
                 changeOrigin: true,
                 pathRewrite: {
                     '^/ori/report/rest/index/get/index/by/privId/and/posId' : '/report/rest/index/get/index/by/privId/and/posId'           // remove base path
